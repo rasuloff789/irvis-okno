@@ -820,6 +820,11 @@ img {
   cursor: pointer;
 }
 
+.products {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 .products__container {
   display: -webkit-box;
   display: -ms-flexbox;
