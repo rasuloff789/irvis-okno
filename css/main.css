@@ -631,4 +631,188 @@ img {
 .phone__link:hover {
   opacity: 0.5;
 }
+
+.hero {
+  background-image: url("../../img/hero-bg.png");
+  background-size: auto 100%;
+  background-position: center center;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../../img/hero-bg@2x.png");
+  }
+}
+
+.hero__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.hero__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 600px;
+}
+
+.hero__heading {
+  color: #333;
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 48px;
+}
+
+.hero__heading span {
+  font-size: 55px;
+  line-height: 55px;
+}
+
+.hero__comfort-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-top: auto;
+  list-style-type: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.hero__comfort-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero__comfort-item:not(:first-child) {
+  margin-left: 20px;
+}
+
+.hero__form {
+  margin-left: auto;
+}
+
+.send-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px 50px;
+  border-radius: 10px;
+  background-color: #fff;
+  max-width: 370px;
+}
+
+.send-form__heading {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.send-form__heading span {
+  font-size: 24px;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+.send-form__name, .send-form__number {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #d1d1d1;
+  padding: 23px;
+  outline: none;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.send-form__name::-webkit-input-placeholder, .send-form__number::-webkit-input-placeholder {
+  color: #999;
+  text-align: center;
+  font-weight: 400;
+}
+
+.send-form__name:-ms-input-placeholder, .send-form__number:-ms-input-placeholder {
+  color: #999;
+  text-align: center;
+  font-weight: 400;
+}
+
+.send-form__name::-ms-input-placeholder, .send-form__number::-ms-input-placeholder {
+  color: #999;
+  text-align: center;
+  font-weight: 400;
+}
+
+.send-form__name::placeholder, .send-form__number::placeholder {
+  color: #999;
+  text-align: center;
+  font-weight: 400;
+}
+
+.send-form__number {
+  margin-top: 20px;
+}
+
+.send-form__button {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.send-form__text {
+  color: #666666;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 13px;
+  text-align: center;
+  margin-top: 20;
+  margin-bottom: 0;
+}
+
+.button {
+  -webkit-box-shadow: 0 2px 20px rgba(255, 153, 0, 0.4);
+          box-shadow: 0 2px 20px rgba(255, 153, 0, 0.4);
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 19px;
+  border-radius: 10px;
+  padding: 30px;
+  font-weight: 700;
+  border: 1px solid #ffc600;
+  background-color: #e8e8e8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffed26), to(#ffb400));
+  background-image: linear-gradient(to bottom, #ffed26 0%, #ffb400 100%);
+  text-align: center;
+  color: #333;
+}
 /*# sourceMappingURL=main.css.map */

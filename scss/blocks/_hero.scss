@@ -1,0 +1,57 @@
+.hero{
+  background-image: url('../../img/hero-bg.png');
+  background-size: auto 100%;
+  background-position: center center;
+  @include retina-bg{
+    background-image: url('../../img/hero-bg@2x.png');
+  }
+}
+
+.hero__container{
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.hero__info{
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.hero__heading{
+  color: $dark-color;
+  font-size: 26px;
+  font-weight: $fw-700;
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 48px;
+  span{
+    font-size: 55px;
+    line-height: 55px;
+  }
+}
+
+.hero__comfort-list{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-top: auto;
+  list-style-type: none;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.hero__comfort-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:not(:first-child){
+    margin-left: 20px;
+  }
+}
+
+.hero__form{
+  margin-left: auto;
+}
