@@ -2,6 +2,7 @@
   background-image: url('../../img/hero-bg.png');
   background-size: auto 100%;
   background-position: center center;
+  background-repeat: no-repeat;
   @include retina-bg{
     background-image: url('../../img/hero-bg@2x.png');
   }

@@ -636,6 +636,7 @@ img {
   background-image: url("../../img/hero-bg.png");
   background-size: auto 100%;
   background-position: center center;
+  background-repeat: no-repeat;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
@@ -803,10 +804,10 @@ img {
   -webkit-box-shadow: 0 2px 20px rgba(255, 153, 0, 0.4);
           box-shadow: 0 2px 20px rgba(255, 153, 0, 0.4);
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 19px;
   border-radius: 10px;
-  padding: 30px;
+  padding: 30px 15px;
   font-weight: 700;
   border: 1px solid #ffc600;
   background-color: #e8e8e8;
