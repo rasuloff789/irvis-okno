@@ -10,7 +10,11 @@
         "../scss/_general.scss",
         "../scss/blocks/_blocks-all.scss",
         "../scss/blocks/_visually-hidden.scss",
-        "../scss/blocks/_container.scss"
+        "../scss/blocks/_container.scss",
+        "../scss/blocks/_site-header.scss",
+        "../scss/blocks/_logo.scss",
+        "../scss/blocks/_work-time.scss",
+        "../scss/blocks/_phone.scss"
     ],
     "names": [],
     "file": "main.css"
