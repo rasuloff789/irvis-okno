@@ -788,6 +788,7 @@ img {
 .send-form__button {
   width: 100%;
   margin-top: 20px;
+  padding: 30px 15px;
 }
 
 .send-form__text {
@@ -807,7 +808,6 @@ img {
   font-size: 19px;
   line-height: 19px;
   border-radius: 10px;
-  padding: 30px 15px;
   font-weight: 700;
   border: 1px solid #ffc600;
   background-color: #e8e8e8;
@@ -815,5 +815,8 @@ img {
   background-image: linear-gradient(to bottom, #ffed26 0%, #ffb400 100%);
   text-align: center;
   color: #333;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

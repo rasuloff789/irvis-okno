@@ -4,11 +4,13 @@
   font-size: 19px;
   line-height: 19px;
   border-radius: 10px;
-  padding: 30px 15px;
   font-weight: $fw-700;
   border: 1px solid #ffc600;
   background-color: #e8e8e8;
   background-image: linear-gradient(to bottom, #ffed26 0%, #ffb400 100%);
   text-align: center;
   color: $dark-color;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
 }
