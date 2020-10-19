@@ -1,0 +1,42 @@
+.phone{
+  display: flex;
+  justify-content: flex-start;
+  &::before{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    content: '';
+    margin-right: 15px;
+    background-position: center center;
+    background-size: 20px 20px;
+    background-image: url('../img/phone.png');
+    @include retina-bg {
+      background-image: url('../img/phone@2x.png');
+    }
+  }
+}
+
+.phone__box{
+  display: flex;
+  flex-direction: column;
+}
+
+.phone__number{
+  font-size: 23px;
+  font-weight: $fw-700;
+  margin-top: 0;
+  margin-bottom: 14px;
+  line-height: 21px;
+  text-decoration: none;
+  color: $dark-color;
+}
+
+.phone__link{
+  font-size: 15px;
+  font-weight: $fw-400;
+  color: $blue-color;
+  display: inline-block;
+  &:hover{
+    opacity: 0.5;
+  }
+}

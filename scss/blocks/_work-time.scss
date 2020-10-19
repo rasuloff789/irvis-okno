@@ -1,0 +1,42 @@
+.work-time{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &::before{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    content: '';
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 20px;
+    background-size: 30px 30px;
+    background-image: url('../img/clock.png');
+    @include retina-bg{
+      background-image: url('../img/clock@2x.png');
+    }
+  }
+}
+
+.work-time__box{
+  display: flex;
+  flex-direction: column;
+}
+
+.work-time__text{
+  margin-top: 0;
+  margin-bottom: 9px;
+  color: $dark-color;
+  font-weight: $fw-400;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.work-time__time{
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: $fw-700;
+  color: $dark-color;
+
+}
