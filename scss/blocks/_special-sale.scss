@@ -1,0 +1,44 @@
+.special-sale{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: url('../img/man-with-tool-belt.png');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center center;
+  @include retina-bg{
+    background-image: url('../img/man-with-tool-belt@2x.png');
+  }
+}
+
+.special-sale__container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.special-sale__info-box{
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.special-sale__info{
+  color: #008cce;
+  font-size: 48px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 48px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.special-sale__heading{
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  margin-top: 80px;
+  margin-bottom: 0;
+}
