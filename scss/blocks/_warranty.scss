@@ -122,3 +122,19 @@
     }
   }
 }
+
+@include breakpoint-down(1200px){
+  .warranty__heading{
+    font-size: 25px;
+    line-height: 27px;
+    margin-bottom: 30px;
+  }
+  
+  .warranty__list{
+    justify-content: center;
+  }
+  .warranty__item{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
