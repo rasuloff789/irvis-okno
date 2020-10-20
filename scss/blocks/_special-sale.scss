@@ -42,3 +42,37 @@
   margin-top: 80px;
   margin-bottom: 0;
 }
+
+@include breakpoint-down(850px){
+  .special-sale{
+    background-image: none;
+    background-color: #ccc;
+  }
+  
+  .special-sale__container{
+    flex-direction: column;
+    > *{
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  
+  .special-sale__info-box{
+    margin-bottom: 15px;
+    align-items: center;
+  }
+  
+  .special-sale__info{
+    font-size: 25px;
+    line-height: 27px;
+  }
+  
+  .special-sale__heading{
+    margin-top: 25px;
+    text-align: center;
+  }
+  
+  .special-sale__form{
+    padding: 20px;
+  }
+}
