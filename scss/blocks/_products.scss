@@ -147,6 +147,7 @@
     background-image: url('../img/galochka.png');
     background-repeat: no-repeat;
     content: '';
+    flex-shrink: 0;
     display: inline-block;
     background-position: center center;
     background-size: 25px 25px;
@@ -182,4 +183,71 @@
   min-width: 260px;
   font-size: 13px;
   line-height: 15px;
+}
+
+@include breakpoint-down(1200px){
+  .products__list{
+    justify-content: center;
+  }
+  .products__item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@include breakpoint-down(950px){
+  .products__info{
+flex-direction: column;
+  }
+
+  .products__info-cool , .products__info-warm{
+    width: 100%;
+  }
+
+  .products__success-list{
+    display: inline-flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .products__price-box{
+    justify-content: center;
+  }
+
+  .products__button{
+    margin-left: 20px;
+  }
+}
+
+@include breakpoint-down(600px){
+.products{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.products__heading{
+  font-size: 24px;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+
+  .products__info-cool , .products__info-warm{
+    padding: 20px 30px;
+  }
+
+  .products__success{
+    line-height: 17px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  .products__price-box{
+    flex-direction: column;
+    & > *:not(:first-child){
+      margin-top: 30px;
+    }
+  }
+  .products__button{
+    margin-left: 0;
+  }
 }
